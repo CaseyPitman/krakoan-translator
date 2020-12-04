@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T20:06:47.664Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="1OpIAPBnQVRWbwEYBwoo" version="13.10.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-04T20:29:24.756Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="cBU9Odwgb_fr0s-Lw3KV" version="13.10.9" type="github" pages="3">
   <diagram id="55QoUhRdpGWPF8yDwpdw" name="Intro">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="39GRGSF3X5SVJ4DdB6bi" name="K to E">
-    <mxGraphModel dx="1424" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1813" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3MHVGsW_S4x5SVjicHTq-0" />
         <mxCell id="3MHVGsW_S4x5SVjicHTq-1" parent="3MHVGsW_S4x5SVjicHTq-0" />
@@ -36,10 +36,10 @@
           <mxGeometry y="80" width="1440" height="800" as="geometry" />
         </mxCell>
         <mxCell id="3MHVGsW_S4x5SVjicHTq-38" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;fontColor=#000000;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
-          <mxGeometry x="230" y="80" width="1000" height="800" as="geometry" />
+          <mxGeometry x="230" y="81" width="1000" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-26" value="&lt;h3&gt;Notes:&lt;/h3&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Header and footer always visible&lt;/li&gt;&lt;li&gt;Main body defined by router&lt;/li&gt;&lt;li&gt;Active tab highlighted, in active not&lt;/li&gt;&lt;li&gt;Tabs - 90 degree corners except top right&lt;/li&gt;&lt;li&gt;Add styling to mimic data pages in the comics&lt;/li&gt;&lt;li&gt;Header animation - Titles start in Krakoan, then slowly fade to english.&lt;/li&gt;&lt;li&gt;When clicking on a tab to switch translations, the clicked div will move to the front and take on the highlight, while the others will recede and stay white.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C2C2C;gradientColor=none;fillColor=#FFFFFF;align=left;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
-          <mxGeometry x="300" y="950" width="770" height="150" as="geometry" />
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-26" value="&lt;h3&gt;Notes:&lt;/h3&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Header and footer always visible&lt;/li&gt;&lt;li&gt;Main body defined by router&lt;/li&gt;&lt;li&gt;Active tab highlighted, in active not&lt;/li&gt;&lt;li&gt;Tabs - 90 degree corners (no overlap.)&lt;/li&gt;&lt;li&gt;Add styling to mimic data pages in the comics&lt;/li&gt;&lt;li&gt;Header animation - Titles start in Krakoan, then slowly fade to english.&lt;/li&gt;&lt;li&gt;When clicking on a tab to switch translations, the clicked div will move to the front and take on the highlight, while the others will recede and stay white.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Little black tab things on left margin - mockup is 10px height, won&#39;t let me go less. In prod go with 5, possibly less.&lt;/li&gt;&lt;li&gt;Dark mode?&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C2C2C;gradientColor=none;fillColor=#FFFFFF;align=left;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="300" y="950" width="770" height="220" as="geometry" />
         </mxCell>
         <mxCell id="3MHVGsW_S4x5SVjicHTq-11" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Krakoan / English Translator&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
           <mxGeometry x="270" y="120" width="500" height="60" as="geometry" />
@@ -49,27 +49,6 @@
         </mxCell>
         <mxCell id="3MHVGsW_S4x5SVjicHTq-31" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#333333;fillColor=#2c2c2c;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
           <mxGeometry x="230" y="180" width="1000" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-33" value="" style="group" vertex="1" connectable="0" parent="3MHVGsW_S4x5SVjicHTq-1">
-          <mxGeometry x="671" y="180" width="559" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-33">
-          <mxGeometry x="359" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-33">
-          <mxGeometry x="180" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-14" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C2C2C;fillColor=#DEDEDE;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-33">
-          <mxGeometry width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-18" value="&lt;h3&gt;Home&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-33">
-          <mxGeometry x="80" y="5" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-19" value="&lt;h3&gt;Krakoan to English&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-33">
-          <mxGeometry x="389" y="5" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-20" value="&lt;h3&gt;English to Krakoan&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-33">
-          <mxGeometry x="200" y="5" width="169" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3MHVGsW_S4x5SVjicHTq-37" value="" style="group" vertex="1" connectable="0" parent="3MHVGsW_S4x5SVjicHTq-1">
           <mxGeometry x="230" y="828" width="1000" height="52" as="geometry" />
@@ -92,14 +71,44 @@
         <mxCell id="3MHVGsW_S4x5SVjicHTq-43" value="[Krakoa_English].........[002]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-47">
           <mxGeometry x="19" y="11" width="162" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-49" value="[Krakoa_native]...........[001]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-49" value="[MTNT_dRamsey]..........[001]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
           <mxGeometry x="1050" y="760" width="162" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-50" value="[Krakoa_English].........[002]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-50" value="[HMN_jHickman]............[002]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
           <mxGeometry x="1050" y="776" width="162" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-55" value="An intro to krakoan language and explanation. there will be menition of hickman and ramsey as well as explantions on extra characters, etc.&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In egestas erat imperdiet sed euismod nisi porta lorem mollis. Felis donec et odio pellentesque diam volutpat commodo sed. Ante in nibh mauris cursus mattis molestie a. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Sed lectus vestibulum mattis.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ullamcorper velit sed ullamcorper. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Ut consequat semper viverra nam libero justo laoreet. A diam sollicitudin tempor id eu nisl nunc. A pellentesque sit amet porttitor eget dolor morbi.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non arcu risus quis varius quam quisque id diam vel. Donec ac odio tempor orci dapibus ultrices in.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
-          <mxGeometry x="270" y="240" width="645" height="443" as="geometry" />
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-55" value="&lt;font style=&quot;font-size: 24px&quot;&gt;An intro to krakoan language and explanation. there will be menition of hickman and ramsey as well as explantions on extra characters, etc.&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;In egestas erat imperdiet sed euismod nisi porta lorem mollis. Felis donec et odio pellentesque diam volutpat commodo sed. Ante in nibh mauris cursus mattis molestie a. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Sed lectus vestibulum mattis.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;ullamcorper velit sed ullamcorper. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Ut consequat semper viverra nam libero justo laoreet. A diam sollicitudin tempor id eu nisl nunc. A pellentesque sit amet porttitor eget dolor morbi.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Non arcu risus quis varius quam quisque id diam vel. Donec ac odio tempor orci dapibus ultrices in.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="270" y="230" width="645" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-62" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#2C2C2C;gradientColor=none;fontSize=20;fontColor=#000000;align=left;strokeColor=#2C2C2C;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="190" y="80" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-64" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#2C2C2C;gradientColor=none;fontSize=20;fontColor=#000000;align=left;strokeColor=#2C2C2C;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="190" y="210" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-68" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#2C2C2C;gradientColor=none;fontSize=20;fontColor=#000000;align=left;strokeColor=#2C2C2C;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="190" y="262" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-70" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#2C2C2C;gradientColor=none;fontSize=20;fontColor=#000000;align=left;strokeColor=#2C2C2C;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="190" y="750" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="1030" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="851" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="671" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-18" value="&lt;h3&gt;&lt;font color=&quot;#ffffff&quot;&gt;Home&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="751" y="185" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-19" value="&lt;h3&gt;Krakoan to English&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="1060" y="185" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-20" value="&lt;h3&gt;English to Krakoan&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="871" y="185" width="169" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
