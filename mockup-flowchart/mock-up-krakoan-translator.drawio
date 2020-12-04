@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T19:43:45.435Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Fc_Hfm0ZUSe6gGCFqdJ0" version="13.10.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-04T19:50:50.928Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="DZHguutEW8H-1LBNnXPU" version="13.10.9" type="github" pages="3">
   <diagram id="55QoUhRdpGWPF8yDwpdw" name="Intro">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="39GRGSF3X5SVJ4DdB6bi" name="K to E">
-    <mxGraphModel dx="1662" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3MHVGsW_S4x5SVjicHTq-0" />
         <mxCell id="3MHVGsW_S4x5SVjicHTq-1" parent="3MHVGsW_S4x5SVjicHTq-0" />
@@ -68,9 +68,6 @@
         <mxCell id="3MHVGsW_S4x5SVjicHTq-20" value="&lt;h3&gt;English to Krakoan&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-33">
           <mxGeometry x="200" y="5" width="169" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-36" value="[Krakoa_native]...........[001]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
-          <mxGeometry x="1054" y="100" width="162" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="3MHVGsW_S4x5SVjicHTq-37" value="" style="group" vertex="1" connectable="0" parent="3MHVGsW_S4x5SVjicHTq-1">
           <mxGeometry x="230" y="828" width="1000" height="52" as="geometry" />
         </mxCell>
@@ -80,8 +77,29 @@
         <mxCell id="3MHVGsW_S4x5SVjicHTq-23" value="&lt;h4&gt;Copyright and attributions&amp;nbsp;&lt;/h4&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-37">
           <mxGeometry x="381.9530284301607" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3MHVGsW_S4x5SVjicHTq-43" value="[Krakoa_English].........[002]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
-          <mxGeometry x="1054" y="116" width="162" height="20" as="geometry" />
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-45" value="[Krakoan_init].........[000]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="224" y="96" width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-46" value="The main body of the intro page will contain some basic background information regarding krakoan and the mutant language, with some nod to hickman and ramsey.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2C2C2C;fillColor=none;gradientColor=none;fontColor=#000000;fontSize=20;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="230" y="210" width="1000" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-47" value="" style="group" vertex="1" connectable="0" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="1054" y="100" width="162" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-36" value="[Krakoa_native]...........[001]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-47">
+          <mxGeometry width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-43" value="[Krakoa_English].........[002]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-47">
+          <mxGeometry y="16" width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-48" value="" style="group" vertex="1" connectable="0" parent="3MHVGsW_S4x5SVjicHTq-1">
+          <mxGeometry x="950" y="640" width="162" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-49" value="[Krakoa_native]...........[001]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-48">
+          <mxGeometry width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3MHVGsW_S4x5SVjicHTq-50" value="[Krakoa_English].........[002]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3MHVGsW_S4x5SVjicHTq-48">
+          <mxGeometry y="16" width="162" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
