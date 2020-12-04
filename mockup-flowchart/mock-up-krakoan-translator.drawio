@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T21:32:15.099Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ERwW9R8nP5MotURbhSoh" version="13.10.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-04T21:35:31.259Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pnuaJHUrqZla78-R0k6X" version="13.10.9" type="github" pages="5">
   <diagram id="39GRGSF3X5SVJ4DdB6bi" name="INTRO">
     <mxGraphModel dx="1662" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -367,6 +367,14 @@
         <mxCell id="chaBzR2Dks_oFFPjSQkZ-0" value="&lt;h3&gt;Notes:&lt;/h3&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Header and footer always visible&lt;/li&gt;&lt;li&gt;Main body defined by router&lt;/li&gt;&lt;li&gt;Active tab highlighted, in active not&lt;/li&gt;&lt;li&gt;Tabs - 90 degree corners (no overlap.)&lt;/li&gt;&lt;li&gt;Add styling to mimic data pages in the comics&lt;/li&gt;&lt;li&gt;Intro Header animation - Titles start in Krakoan, then, letter by letter, switches to english.&lt;/li&gt;&lt;li&gt;When clicking on a tab to switch translations, the clicked div will move to the front and take on the highlight, while the others will recede and stay white.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Little black tab things on left margin - mockup is 10px height, won&#39;t let me go less. In prod go with 5, possibly less.&lt;/li&gt;&lt;li&gt;Dark mode? Do I dare?&lt;/li&gt;&lt;li&gt;When translating e - k, will need to add a space character the same size as all other krakoan images to make up for user entering a space.&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C2C2C;gradientColor=none;fillColor=#FFFFFF;align=left;" vertex="1" parent="BNckpBsz9wUA8sE-ArTk-1">
           <mxGeometry x="150" y="440" width="770" height="450" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aB-cXF4xyjchPkOC6zu5" name="Data Flow">
+    <mxGraphModel dx="997" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="doxNpc3oGQHuAbfPYy8a-0" />
+        <mxCell id="doxNpc3oGQHuAbfPYy8a-1" parent="doxNpc3oGQHuAbfPYy8a-0" />
       </root>
     </mxGraphModel>
   </diagram>
