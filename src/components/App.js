@@ -1,9 +1,16 @@
+//App component
+
 import React from "react";
+
+//Components
+import Header from "./Header";
+import Footer from "./Footer";
 
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
+      <Header />
+      <Footer />
     </div>
   );
 };
