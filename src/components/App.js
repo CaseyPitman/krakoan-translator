@@ -6,9 +6,16 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
+//Styles
+import "../css/global.css";
+
+const lightStyles = {
+  backgroundColor: "pink",
+};
+
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Header />
       <Footer />
     </div>
