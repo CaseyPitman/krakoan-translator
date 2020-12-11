@@ -1,24 +1,29 @@
 //App component
 
-import React from "react";
+import React, { useState } from "react";
 
 //Components
 import Header from "./Header";
 import Footer from "./Footer";
 
-//Styles
-import "../css/global.css";
-
-const lightStyles = {
-  backgroundColor: "pink",
-};
+//Styling
+import { ThemeProvider } from "styled-components";
+import { lightTheme, darkTheme } from "../styles/themes";
+import { GlobalStyles } from "../styles/global";
 
 const App = () => {
+
+
+
   return (
-    <div className='app'>
-      <Header />
-      <Footer />
-    </div>
+    <ThemeProvider theme={lightTheme}>
+      <GlobalStyles />
+
+      <div className='app'>
+        <Header />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 };
 
