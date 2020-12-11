@@ -12,15 +12,23 @@ import { lightTheme, darkTheme } from "../styles/themes";
 import { GlobalStyles } from "../styles/global";
 
 const App = () => {
+  const [theme, setTheme] = useState("light");
 
-
+  //Toggles between dark and light theme
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
 
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
 
       <div className='app'>
-        <Header />
+        <Header toggleTheme={toggleTheme} />
         <Footer />
       </div>
     </ThemeProvider>
