@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 
 const Toggle = props => {
-  const [icon, setIcon] = useState("");
+  const [icon, setIcon] = useState(props.theme);
 
   useEffect(() => {
     const curIcon = props.theme === "light" ? "moon" : "sun";
