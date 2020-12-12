@@ -20,10 +20,17 @@ export const GlobalStyles = createGlobalStyle`
       width: 100%;
    }
 
+   .app {
+      margin: auto;
+      max-width: 1400px;
+   }
+
    //Header
 
    .header{
-      color: red;
+      height:200px;
+      border: 1px solid;
+      margin-top: 5px;
    }
 
    .icon {
