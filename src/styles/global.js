@@ -23,6 +23,11 @@ export const GlobalStyles = createGlobalStyle`
       color: red;
    }
 
+   .icon {
+      font-size:50px;
+      color: blue;
+   }
+
 
 
 `;
