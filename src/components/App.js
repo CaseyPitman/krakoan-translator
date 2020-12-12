@@ -6,25 +6,21 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
+//Hooks
+import { useDarkMode } from "../hooks/useDarkMode";
+
 //Styling
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "../styles/themes";
 import { GlobalStyles } from "../styles/global";
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, toggleTheme] = useDarkMode();
 
-  //Toggles between dark and light theme
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  };
+  const themeMode = theme === "light" ? lightTheme : darkTheme;
 
   return (
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+    <ThemeProvider theme={themeMode}>
       <GlobalStyles />
 
       <div className='app'>
