@@ -13,9 +13,9 @@ const Toggle = props => {
 
   return (
     <div className='toggle'>
-      <button className='toggle-button' onClick={e => props.toggleTheme()}>
-        <i className={`icon fas fa-${icon}`}></i>
-      </button>
+      <i
+        className={`icon fas fa-${icon}`}
+        onClick={e => props.toggleTheme()}></i>
     </div>
   );
 };

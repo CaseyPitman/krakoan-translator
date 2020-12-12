@@ -21,13 +21,17 @@ export const GlobalStyles = createGlobalStyle`
    }
 
    //Header
-   
+
    .header{
       color: red;
    }
 
    .icon {
-      font-size:50px;
+      font-size:16px;
+   }
+   
+   .icon:hover {
+      cursor: pointer;
    }
 
    .fa-sun {
@@ -37,6 +41,5 @@ export const GlobalStyles = createGlobalStyle`
    .fa-moon {
       color: black;
    }
-   
 
 `;
