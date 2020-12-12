@@ -1,23 +1,21 @@
 //This component renders the dark/light mode toggle switch.
 
-import { render } from "@testing-library/react";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Toggle = props => {
-  const renderToggle = () => {
-    const className = "icon fas fa-";
+  const [icon, setIcon] = useState("");
 
-    return (
-      <i className={className + (props.theme === "light" ? "moon" : "sun")}></i>
-    );
-  };
+  useEffect(() => {
+    const curIcon = props.theme === "light" ? "moon" : "sun";
+
+    setIcon(curIcon);
+  }, [props.theme]);
 
   return (
     <div className='toggle'>
-      {/* <button onClick={e => props.toggleTheme()}>Theme</button>
-      <i className='fas fa-sun icon'></i>
-      <i className='fas fa-moon icon'></i> */}
-      {renderToggle()}
+      <button className='toggle-button' onClick={e => props.toggleTheme()}>
+        <i className={`icon fas fa-${icon}`}></i>
+      </button>
     </div>
   );
 };

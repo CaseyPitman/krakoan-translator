@@ -3,6 +3,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+   //Full page
    *,
    *::after,
    *::before {
@@ -19,15 +20,23 @@ export const GlobalStyles = createGlobalStyle`
       width: 100%;
    }
 
+   //Header
+   
    .header{
       color: red;
    }
 
    .icon {
       font-size:50px;
-      color: blue;
    }
 
+   .fa-sun {
+      color: white;
+   }
 
+   .fa-moon {
+      color: black;
+   }
+   
 
 `;
