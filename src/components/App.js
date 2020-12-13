@@ -11,8 +11,9 @@ import { useDarkMode } from "../hooks/useDarkMode";
 
 //Styling
 import { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme } from "../styles/themes";
-import { GlobalStyles } from "../styles/global";
+import { lightTheme, darkTheme } from "../themes/themes";
+import { GlobalStyles } from "../themes/global";
+import "../css/global.css";
 
 const App = () => {
   const [theme, toggleTheme, componentMounted] = useDarkMode();

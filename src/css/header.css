@@ -1,0 +1,98 @@
+/* Header Styles  */
+
+.header {
+  height: 170px;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.header:after {
+  content: "";
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* Header-top allows for top partial borders. */
+
+.header-top {
+  position: relative;
+  height: 0px;
+}
+
+.header-top::before {
+  content: "";
+  border-top: 2px solid;
+  border-left: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+}
+
+.header-top:after {
+  content: "";
+  border-top: 2px solid;
+  border-right: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.header-content {
+  height: 100%;
+  postion: relative;
+  width: 100%;
+}
+
+.headline {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  width: 70%;
+}
+
+.header-info {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  width: 20%;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.fa-sun {
+  color: white;
+}
+
+.fa-moon {
+  color: black;
+}

@@ -2,7 +2,11 @@
 
 import React from "react";
 
+//Components
 import Toggle from "./Toggle";
+
+//Styles
+import '../css/header.css'
 
 const Header = props => {
   return (

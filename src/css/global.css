@@ -1,0 +1,29 @@
+/* Global styles, non theme dependent */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  transition: all 0.25s linear;
+  height: 100%;
+  width: 100%;
+}
+
+/* Full app containe */
+.app {
+   margin: auto;
+   max-width: 1400px;
+}
+
+/* Krakoan info-tags used throughout app */
+.info-tag {
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 300;
+   font-size: 14px;
+}
