@@ -16,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
       background: ${({ theme }) => theme.body};
       color: ${({ theme }) => theme.text};
       border-color: ${({ theme }) => theme.border};
-      font-family: Helvetica, sans-serif;
+      font-family: 'Lato', sans-serif;
       transition: all 0.25s linear;
       height: 100%;
       width: 100%;
@@ -25,7 +25,6 @@ export const GlobalStyles = createGlobalStyle`
    .app {
       margin: auto;
       max-width: 1400px;
-   
    }
 
    //Header
@@ -84,6 +83,10 @@ export const GlobalStyles = createGlobalStyle`
       position: absolute;
       top:0px;
       right: 0px;
+    }
+
+    .headline {
+       font-weight: 400;
     }
 
 
