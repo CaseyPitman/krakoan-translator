@@ -16,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
       background: ${({ theme }) => theme.body};
       color: ${({ theme }) => theme.text};
       border-color: ${({ theme }) => theme.border};
-      font-family: 'Lato', sans-serif;
+      font-family: 'Helvetica', sans-serif;
       transition: all 0.25s linear;
       height: 100%;
       width: 100%;
@@ -91,12 +91,34 @@ export const GlobalStyles = createGlobalStyle`
       right: 0px;
     }
 
+    .header-content {
+   
+      height:100%;
+      postion: relative;
+      width: 100%;
+
+    }
+
     .headline {
-       font-weight: 400;
+       position: absolute;
+       bottom: 0px;
+       left: 10px;
+       font-size: 80px;
+       font-weight: 700;
+       line-height: 1;
+       width: 70%;
+    }
+
+    .header-info {
+       position: absolute;
+       bottom: 10px;
+       right: 10px;
+       text-align: right;
+       width: 20%;
     }
 
    .icon {
-      // font-size:16px;
+      font-size:20px;
       margin-right: 5px;
    }
    

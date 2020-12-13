@@ -17,7 +17,7 @@ const Toggle = props => {
         <i
           className={`icon fas fa-${icon}`}
           onClick={e => props.toggleTheme()}></i>
-        [displayMode].....[drk]
+        [displayMode].....[{props.theme === 'light' ? 'lit' : 'drk'}]
       </p>
     </div>
   );

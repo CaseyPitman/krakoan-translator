@@ -8,7 +8,7 @@ const Header = props => {
   return (
     <div className='header'>
       <div className='header-top'></div>
-      <div className='header-contnet'>
+      <div className='header-content'>
         <h1 className='headline'>Krakoan Translator</h1>
         <div className='header-info'>
           <p className='info-tag'>[krakoan_init]....[exe]</p>
