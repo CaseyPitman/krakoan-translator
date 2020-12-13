@@ -13,9 +13,12 @@ const Toggle = props => {
 
   return (
     <div className='toggle'>
-      <i
-        className={`icon fas fa-${icon}`}
-        onClick={e => props.toggleTheme()}></i>
+      <p className='info-tag'>
+        <i
+          className={`icon fas fa-${icon}`}
+          onClick={e => props.toggleTheme()}></i>
+        [displayMode].....[drk]
+      </p>
     </div>
   );
 };

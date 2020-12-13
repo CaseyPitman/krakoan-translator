@@ -27,6 +27,12 @@ export const GlobalStyles = createGlobalStyle`
       max-width: 1400px;
    }
 
+   .info-tag {
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 300;
+      font-size: 14px;
+   }
+
    //Header
 
    .header{
@@ -89,9 +95,9 @@ export const GlobalStyles = createGlobalStyle`
        font-weight: 400;
     }
 
-
    .icon {
-      font-size:16px;
+      // font-size:16px;
+      margin-right: 5px;
    }
    
    .icon:hover {
