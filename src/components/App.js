@@ -4,6 +4,7 @@ import React from "react";
 
 //Components
 import Header from "./Header";
+import NavBar from "./NavBar"
 import Footer from "./Footer";
 
 //Hooks
@@ -31,6 +32,7 @@ const App = () => {
 
       <div className='app'>
         <Header toggleTheme={toggleTheme} theme={theme} />
+        <NavBar/>
         <Footer />
       </div>
     </ThemeProvider>
