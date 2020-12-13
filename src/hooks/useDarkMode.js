@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 export const useDarkMode = () => {
   const [theme, setTheme] = useState("light");
+  const [componentMounted, setComponentMounted] = useState(false);
 
   //Toggles between dark and light theme
   const toggleTheme = () => {
@@ -16,11 +17,17 @@ export const useDarkMode = () => {
     }
   };
 
+  //Stores selection in localStorage
   useEffect(() => {
     const storedTheme = window.localStorage.getItem("theme");
-
-    storedTheme && setTheme(storedTheme);
+    if (storedTheme) {
+      setTheme(storedTheme);
+    } else {
+      setTheme("light");
+      window.localStorage.setItem("theme", "light");
+    }
+    setComponentMounted(true);
   }, []);
 
-  return [theme, toggleTheme];
+  return [theme, toggleTheme, componentMounted];
 };
