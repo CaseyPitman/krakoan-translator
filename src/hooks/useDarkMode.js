@@ -6,14 +6,18 @@ export const useDarkMode = () => {
   const [theme, setTheme] = useState("light");
   const [componentMounted, setComponentMounted] = useState(false);
 
+  //Set mode in local storage and in state
+  const setMode = mode => {
+    window.localStorage.setItem("theme", mode);
+    setTheme(mode);
+  };
+
   //Toggles between dark and light theme
   const toggleTheme = () => {
     if (theme === "light") {
-      window.localStorage.setItem("theme", "dark");
-      setTheme("dark");
+      setMode("dark");
     } else {
-      window.localStorage.setItem("theme", "light");
-      setTheme("light");
+      setMode("light");
     }
   };
 
@@ -21,10 +25,9 @@ export const useDarkMode = () => {
   useEffect(() => {
     const storedTheme = window.localStorage.getItem("theme");
     if (storedTheme) {
-      setTheme(storedTheme);
+      setMode(storedTheme);
     } else {
-      setTheme("light");
-      window.localStorage.setItem("theme", "light");
+      setMode("light");
     }
     setComponentMounted(true);
   }, []);
