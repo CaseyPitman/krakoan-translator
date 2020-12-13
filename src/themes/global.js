@@ -12,6 +12,7 @@ export const GlobalStyles = createGlobalStyle`
 
    .nav-bar {
       background: ${({ theme }) => theme.navBarBackground};
+   
 
    }
 
