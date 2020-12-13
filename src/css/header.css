@@ -58,31 +58,44 @@
 
 .header-content {
   height: 100%;
-  postion: relative;
+  position: relative;
   width: 100%;
+}
+
+.intro-tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.x-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
 }
 
 .headline {
   position: absolute;
-  bottom: 0px;
-  left: 10px;
-  font-size: 80px;
+  bottom: 10px;
+  left: 15px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 1;
-  width: 70%;
+  width: 80%;
 }
 
 .header-info {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   text-align: right;
   width: 20%;
 }
 
 .icon {
-  font-size: 20px;
-  margin-right: 5px;
+  font-size: 18px;
+  margin-right: 10px;
 }
 
 .icon:hover {
