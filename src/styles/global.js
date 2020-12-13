@@ -23,15 +23,67 @@ export const GlobalStyles = createGlobalStyle`
    .app {
       margin: auto;
       max-width: 1400px;
+   
    }
 
    //Header
 
    .header{
       height:200px;
-      border: 1px solid;
-      margin-top: 5px;
+      width: 100%;
+      margin-top: 10px;
+      position: relative;
    }
+
+   .header::before {
+      content: '';
+      border-bottom: 2px solid black;
+      border-left: 2px solid black;
+      width:20px;
+      height:20px; 
+      position:absolute;
+      bottom: 0px;
+    }
+    
+    .header:after {
+      content: '';
+      border-bottom:2px solid black;
+      border-right: 2px solid black;
+      width:20px;
+      height:20px;
+      position: absolute;
+      bottom:0px;
+      right: 0px;
+    }
+
+    //Header-top allows for top partial borders.
+
+    .header-top{
+      position:relative;
+      height: 0px;
+    }
+
+    .header-top::before {
+      content: '';
+      border-top: 2px solid black;
+      border-left: 2px solid black;
+      width:20px;
+      height:20px; 
+      position:absolute;
+      top: 0px;
+    }
+    
+    .header-top:after {
+      content: '';
+      border-top:2px solid black;
+      border-right: 2px solid black;
+      width:20px;
+      height:20px;
+      position: absolute;
+      top:0px;
+      right: 0px;
+    }
+
 
    .icon {
       font-size:16px;
