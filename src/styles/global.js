@@ -15,6 +15,8 @@ export const GlobalStyles = createGlobalStyle`
    body {
       background: ${({ theme }) => theme.body};
       color: ${({ theme }) => theme.text};
+      border-color: ${({ theme }) => theme.border};
+      font-family: Helvetica, sans-serif;
       transition: all 0.25s linear;
       height: 100%;
       width: 100%;
@@ -37,8 +39,8 @@ export const GlobalStyles = createGlobalStyle`
 
    .header::before {
       content: '';
-      border-bottom: 2px solid black;
-      border-left: 2px solid black;
+      border-bottom: 2px solid;
+      border-left: 2px solid;
       width:20px;
       height:20px; 
       position:absolute;
@@ -47,8 +49,8 @@ export const GlobalStyles = createGlobalStyle`
     
     .header:after {
       content: '';
-      border-bottom:2px solid black;
-      border-right: 2px solid black;
+      border-bottom:2px solid ;
+      border-right: 2px solid ;
       width:20px;
       height:20px;
       position: absolute;
@@ -65,8 +67,8 @@ export const GlobalStyles = createGlobalStyle`
 
     .header-top::before {
       content: '';
-      border-top: 2px solid black;
-      border-left: 2px solid black;
+      border-top: 2px solid ;
+      border-left: 2px solid;
       width:20px;
       height:20px; 
       position:absolute;
@@ -75,8 +77,8 @@ export const GlobalStyles = createGlobalStyle`
     
     .header-top:after {
       content: '';
-      border-top:2px solid black;
-      border-right: 2px solid black;
+      border-top:2px solid ;
+      border-right: 2px solid ;
       width:20px;
       height:20px;
       position: absolute;
