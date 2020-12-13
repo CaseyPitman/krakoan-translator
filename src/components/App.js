@@ -1,6 +1,6 @@
 //App component
 
-import React, { useState } from "react";
+import React from "react";
 
 //Components
 import Header from "./Header";
@@ -15,9 +15,14 @@ import { lightTheme, darkTheme } from "../styles/themes";
 import { GlobalStyles } from "../styles/global";
 
 const App = () => {
-  const [theme, toggleTheme] = useDarkMode();
+  const [theme, toggleTheme, componentMounted] = useDarkMode();
 
   const themeMode = theme === "light" ? lightTheme : darkTheme;
+
+  //check to see if component has mounted
+  if (!componentMounted) {
+    return <div />;
+  }
 
   return (
     <ThemeProvider theme={themeMode}>
