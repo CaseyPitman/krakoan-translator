@@ -9,4 +9,16 @@ export const GlobalStyles = createGlobalStyle`
       color: ${({ theme }) => theme.text};
       border-color: ${({ theme }) => theme.border};
    }
+
+   .nav-bar {
+      background: ${({ theme }) => theme.navBarBackground};
+
+   }
+
+   .footer {
+      background: ${({ theme }) => theme.footerBackground};
+      color: ${({ theme }) => theme.footerText};
+   }
+
+
 `;

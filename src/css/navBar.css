@@ -1,0 +1,9 @@
+/* Styles for navbar, not dependent on current theme selection */
+
+
+.nav-bar {
+
+   color: red;
+   margin: 10px 0;
+}
+

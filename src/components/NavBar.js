@@ -2,6 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 
+//Styles
+import '../css/navBar.css'
+
 const NavBar = props => {
   return (
     <div class='nav-bar'>

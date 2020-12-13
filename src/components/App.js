@@ -33,6 +33,7 @@ const App = () => {
       <div className='app'>
         <Header toggleTheme={toggleTheme} theme={theme} />
         <NavBar/>
+        <div className = 'page'></div>
         <Footer />
       </div>
     </ThemeProvider>
