@@ -1,13 +1,15 @@
 //App component
 
 import React from "react";
-import {HashRouter as Router, Route} from 'react-router-dom';
+import { HashRouter as Router, Route } from "react-router-dom";
 
 //Components
 import Header from "./Header";
-import NavBar from "./NavBar"
+import NavBar from "./NavBar";
 import Footer from "./Footer";
-import EnglishTranslate from './EnglishTranslate'
+import EnglishTranslate from "./EnglishTranslate";
+import KrakoanTranslate from "./KrakoanTranslate";
+
 //Hooks
 import { useDarkMode } from "../hooks/useDarkMode";
 
@@ -33,8 +35,8 @@ const App = () => {
 
       <div className='app'>
         <Header toggleTheme={toggleTheme} theme={theme} />
-        <NavBar/>
-        <div className = 'page'></div>
+        <NavBar />
+        <div className='page'></div>
         <Footer />
       </div>
     </ThemeProvider>

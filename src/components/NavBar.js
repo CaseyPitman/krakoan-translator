@@ -7,8 +7,8 @@ import "../css/navBar.css";
 
 const NavBar = props => {
   return (
-    <div class='nav-bar'>
-      <div class='nav-link-container'>
+    <div className='nav-bar'>
+      <div className='nav-link-container'>
         <div className='nav-link active'>Home</div>
         <div className='nav-link inactive'>English to Krakoan</div>
         <div className='nav-link inactive'>Krakoan to English</div>
