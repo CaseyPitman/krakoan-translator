@@ -26,8 +26,8 @@
   width: 33%;
 }
 
-.nav-link:hover {
-  background: rgb(77, 77, 77);
+.inactive:hover {
+  background: rgb(88,88,88);
   cursor: pointer;
   color: white;
 }

@@ -102,6 +102,7 @@
 
 .icon:hover {
   cursor: pointer;
+  color:red;
 }
 
 .fa-sun {
