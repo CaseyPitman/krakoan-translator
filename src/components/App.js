@@ -38,8 +38,9 @@ const App = () => {
         <div className='app'>
           <Header toggleTheme={toggleTheme} theme={theme} />
           <NavBar />
-          <div className='page'></div>
-
+          <Route path = '/' exact component = {Home}/>
+          <Route path = '/english-to-krakoan' component = {EnglishTranslate}/>
+          <Route path = '/krakoan-to-english' component = {KrakoanTranslate}/>
           <Footer />
         </div>
       </Router>
