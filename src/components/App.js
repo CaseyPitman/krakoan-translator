@@ -7,7 +7,7 @@ import {HashRouter as Router, Route} from 'react-router-dom';
 import Header from "./Header";
 import NavBar from "./NavBar"
 import Footer from "./Footer";
-
+import EnglishTranslate from './EnglishTranslate'
 //Hooks
 import { useDarkMode } from "../hooks/useDarkMode";
 
