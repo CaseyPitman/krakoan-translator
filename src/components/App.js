@@ -7,6 +7,7 @@ import { HashRouter as Router, Route } from "react-router-dom";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Home from "./Home";
 import EnglishTranslate from "./EnglishTranslate";
 import KrakoanTranslate from "./KrakoanTranslate";
 
@@ -33,12 +34,15 @@ const App = () => {
     <ThemeProvider theme={themeMode}>
       <GlobalStyles />
 
-      <div className='app'>
-        <Header toggleTheme={toggleTheme} theme={theme} />
-        <NavBar />
-        <div className='page'></div>
-        <Footer />
-      </div>
+      <Router>
+        <div className='app'>
+          <Header toggleTheme={toggleTheme} theme={theme} />
+          <NavBar />
+          <div className='page'></div>
+
+          <Footer />
+        </div>
+      </Router>
     </ThemeProvider>
   );
 };
