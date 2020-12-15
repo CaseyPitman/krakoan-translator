@@ -1,0 +1,21 @@
+/* Styles for home view */
+
+.home {
+  position: relative;
+  margin: 50px 0;
+}
+
+.home-data-container {
+  width: 50%;
+}
+
+.home-info-tag-container {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+
+.data-text {
+   font-size: 24px;
+   margin:30px 0;
+}
