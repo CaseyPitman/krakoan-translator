@@ -25,7 +25,7 @@
   height: 20px;
   position: absolute;
   bottom: 0px;
-  right: 0px
+  right: 0px;
 }
 
 /* Header-top allows for top partial borders. */
@@ -102,7 +102,7 @@
 
 .icon:hover {
   cursor: pointer;
-  color:red;
+  color: red;
 }
 
 .fa-sun {

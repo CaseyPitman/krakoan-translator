@@ -7,6 +7,56 @@
 
 .home-data-container {
   width: 50%;
+  position: relative;
+}
+
+.home-data-container::before {
+  content: "";
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.home-data-container::after {
+  content: "";
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.home-data-top {
+  position: relative;
+  height: 0px;
+}
+
+.home-data-top::before {
+  content: "";
+  border-top: 2px solid;
+  border-left: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.home-data-top::after {
+  content: "";
+  border-top: 2px solid;
+  border-right: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .home-info-tag-container {
@@ -15,7 +65,12 @@
   right: 20px;
 }
 
+.data-text-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: justify;
+}
 .data-text {
-   font-size: 24px;
-   margin:30px 0;
+  font-size: 24px;
 }

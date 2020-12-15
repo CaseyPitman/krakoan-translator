@@ -19,6 +19,7 @@ body {
 .app {
    margin: auto;
    max-width: 1400px;
+   width:90%;
 }
 
 /* Krakoan info-tags used throughout app */
