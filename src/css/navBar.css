@@ -34,7 +34,8 @@
 }
 
 .nav-link:hover{
-  font-weight: 700;
+  color:red;
+
 }
 
 
@@ -48,5 +49,6 @@ a {
 }
 
 .active:hover {
-  font-weight:400;
+  color:white;
+
 }
