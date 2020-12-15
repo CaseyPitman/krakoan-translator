@@ -17,18 +17,17 @@ body {
 
 /* Full app container */
 .app {
-   margin: auto;
-   max-width: 1400px;
-   width:90%;
+  margin: auto;
+  max-width: 1440px;
+  width: 90%;
 }
 
 /* Krakoan info-tags used throughout app */
 .info-tag {
-   font-family: 'Roboto Mono', monospace;
-   font-weight: 300;
-   font-size: 14px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 14px;
 }
-
 
 /* for spacing while building */
 
