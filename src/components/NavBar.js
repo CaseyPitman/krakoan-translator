@@ -8,8 +8,7 @@ import "../css/navBar.css";
 
 const NavBar = props => {
   const location = useLocation();
-  console.log(location.pathname);
-  const clickLink = () => {};
+
 
   return (
     <div className='nav-bar'>

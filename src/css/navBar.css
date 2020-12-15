@@ -26,10 +26,9 @@
   width: 33%;
 }
 
-.inactive:hover {
-  background: rgb(88,88,88);
-  cursor: pointer;
-  color: white;
+
+a {
+  text-decoration: none;
 }
 
 .active {
