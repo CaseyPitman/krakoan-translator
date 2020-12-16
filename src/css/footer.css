@@ -1,0 +1,12 @@
+/* Styles for the footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.copyright {
+   font-size:18px;
+}
