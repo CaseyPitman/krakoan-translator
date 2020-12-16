@@ -16,7 +16,7 @@ const EnglishTranslate = () => {
   //Maybe move all this to a seperate file
   const importAll = r => {
     let chars = {};
-    r.keys().map((item, index) => {
+    r.keys().forEach((item, index) => {
       chars[item.replace("./", "")] = r(item);
     });
     return chars;
