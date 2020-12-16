@@ -1,7 +1,67 @@
 /* Styles for English to Krakoan Translation Page */
 
+.english-translate {
+  position: relative;
+  margin: 50px 0;
+}
+
 .input-output-wrapper {
+  position: relative;
   width: 66.66%;
+}
+
+.input-output-wrapper::before {
+  content: "";
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.input-output-wrapper::after {
+  content: "";
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.input-output-wrapper-top {
+  position: relative;
+  height: 0px;
+}
+
+.input-output-wrapper-top:before {
+  content: "";
+  border-top: 2px solid;
+  border-left: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.input-output-wrapper-top:after {
+  content: "";
+  border-top: 2px solid;
+  border-right: 2px solid;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.input-container,
+.output-container {
+  padding: 20px;
 }
 
 .input-text {
@@ -12,10 +72,7 @@
   border: 1px solid black;
   resize: none;
   padding: 5px;
-}
-
-.input-text:focus {
-  border: 1px solid black;
+  overflow:auto;
 }
 
 .translated-text {
@@ -27,4 +84,10 @@
 
 .k-output-character {
   width: 50px;
+}
+
+.english-translate-info-tag {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
 }

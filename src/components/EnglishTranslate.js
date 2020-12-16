@@ -5,10 +5,6 @@ import React, { useState, useEffect } from "react";
 //Styles
 import "../css/english-translate.css";
 
-//Assets
-// import imageLoader from "../characters.js";
-
-//{ images.map(({id, src, title, description}) => <img key={id} src={src} title={title} alt={description} />)
 
 const EnglishTranslate = () => {
   const [characters, setCharacters] = useState();
@@ -32,6 +28,7 @@ const EnglishTranslate = () => {
   return (
     <div className='english-translate'>
       <div className='input-output-wrapper'>
+      <div className='input-output-wrapper-top'></div>
         <div className='input-container'>
           <textarea
             className='input-text'
@@ -60,7 +57,7 @@ const EnglishTranslate = () => {
         </div>
       </div>
 
-      <div className='k-e-trans-info-tag'>
+      <div className='english-translate-info-tag'>
         <p className='info-tag'>[e_k_trans_init]..[exe]</p>
       </div>
     </div>
