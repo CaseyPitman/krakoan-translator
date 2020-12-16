@@ -13,29 +13,46 @@ import "../css/english-translate.css";
 const EnglishTranslate = () => {
   const [characters, setCharacters] = useState();
 
-  const importAll =(r)=>{
+  const importAll = r => {
     let images = {};
     r.keys().map((item, index) => {
       images[item.replace("./", "")] = r(item);
     });
     return images;
-  }
+  };
 
   const images = importAll(
     require.context("../images/krakoan-characters", false, /\.(png|jpe?g|svg)$/)
   );
-
 
   return (
     <div className='english-translate'>
       <div className='input-output-wrapper'>
         <div className='input-container'>
           <textarea className='english-input'></textarea>
-          <p className='info-tag'>[MTNT_dRamsey]..[ADMIN]</p>
+          <p className='info-tag'>[INPUT.TXT].......[ENG]</p>
         </div>
-        <div className='krakoan-output'>
-          <img src={images["A.jpg"].default} className='k-output-character' />
+        <div className='output-container'>
+          <div className='translated-text'>
+            <img src={images["C.jpg"].default} className='k-output-character' />
+            <img src={images["A.jpg"].default} className='k-output-character' />
+            <img src={images["S.jpg"].default} className='k-output-character' />
+            <img src={images["E.jpg"].default} className='k-output-character' />
+            <img src={images["Y.jpg"].default} className='k-output-character' />
+            <img src={images["space-bar.jpg"].default} className='k-output-character' />
+            <img src={images["P.jpg"].default} className='k-output-character' />
+            <img src={images["I.jpg"].default} className='k-output-character' />
+            <img src={images["T.jpg"].default} className='k-output-character' />
+            <img src={images["M.jpg"].default} className='k-output-character' />
+            <img src={images["A.jpg"].default} className='k-output-character' />
+            <img src={images["N.jpg"].default} className='k-output-character' />
+          </div>
+          <p className='info-tag'>[OUTPUT.TXT].....[KRKN]</p>
         </div>
+      </div>
+
+      <div className='k-e-trans-info-tag'>
+        <p className='info-tag'>[e_k_trans_init]..[exe]</p>
       </div>
     </div>
   );
