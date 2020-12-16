@@ -13,17 +13,20 @@ import "../css/english-translate.css";
 const EnglishTranslate = () => {
   const [characters, setCharacters] = useState();
 
+
+  //Maybe move all this to a seperate file
   const importAll = r => {
-    let images = {};
+    let chars = {};
     r.keys().map((item, index) => {
-      images[item.replace("./", "")] = r(item);
+      chars[item.replace("./", "")] = r(item);
     });
-    return images;
+    return chars;
   };
 
-  const images = importAll(
+  const chars = importAll(
     require.context("../images/krakoan-characters", false, /\.(png|jpe?g|svg)$/)
   );
+  //Maybe move all this to a seperate file
 
   return (
     <div className='english-translate'>
@@ -34,18 +37,18 @@ const EnglishTranslate = () => {
         </div>
         <div className='output-container'>
           <div className='translated-text'>
-            <img src={images["C.jpg"].default} className='k-output-character' />
-            <img src={images["A.jpg"].default} className='k-output-character' />
-            <img src={images["S.jpg"].default} className='k-output-character' />
-            <img src={images["E.jpg"].default} className='k-output-character' />
-            <img src={images["Y.jpg"].default} className='k-output-character' />
-            <img src={images["space-bar.jpg"].default} className='k-output-character' />
-            <img src={images["P.jpg"].default} className='k-output-character' />
-            <img src={images["I.jpg"].default} className='k-output-character' />
-            <img src={images["T.jpg"].default} className='k-output-character' />
-            <img src={images["M.jpg"].default} className='k-output-character' />
-            <img src={images["A.jpg"].default} className='k-output-character' />
-            <img src={images["N.jpg"].default} className='k-output-character' />
+            <img src={chars["C.jpg"].default} className='k-output-character' />
+            <img src={chars["A.jpg"].default} className='k-output-character' />
+            <img src={chars["S.jpg"].default} className='k-output-character' />
+            <img src={chars["E.jpg"].default} className='k-output-character' />
+            <img src={chars["Y.jpg"].default} className='k-output-character' />
+            <img src={chars["space-bar.jpg"].default} className='k-output-character' />
+            <img src={chars["P.jpg"].default} className='k-output-character' />
+            <img src={chars["I.jpg"].default} className='k-output-character' />
+            <img src={chars["T.jpg"].default} className='k-output-character' />
+            <img src={chars["M.jpg"].default} className='k-output-character' />
+            <img src={chars["A.jpg"].default} className='k-output-character' />
+            <img src={chars["N.jpg"].default} className='k-output-character' />
           </div>
           <p className='info-tag'>[OUTPUT.TXT].....[KRKN]</p>
         </div>
