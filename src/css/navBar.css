@@ -5,6 +5,18 @@
   border: 1px solid black;
   margin: 10px 0;
   height: 50px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.copyright-container {
+  width: 50%;
+}
+
+.copyright {
+  font-size: 16px;
+  margin-left: 20px;
 }
 
 .nav-link-container {
@@ -17,7 +29,6 @@
   display: flex;
   justify-content: center;
   flex-flow: row nowrap;
-
 }
 
 .nav-link {
@@ -33,11 +44,9 @@
   width: 33.33%;
 }
 
-.nav-link:hover{
-  color:red;
-
+.nav-link:hover {
+  color: red;
 }
-
 
 a {
   text-decoration: none;
@@ -49,6 +58,5 @@ a {
 }
 
 .active:hover {
-  color:white;
-
+  color: white;
 }

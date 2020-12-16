@@ -7,6 +7,7 @@ export const lightTheme = {
    text: 'black',
    border: 'black',
    navBarBackground: 'black',
+   copyright: 'white',
    footerBackground: 'black',
    footerText: 'white'
 }
@@ -16,6 +17,7 @@ export const darkTheme = {
    text: 'white',
    border: 'white',
    navBarBackground: 'white',
+   copyright: 'black',
    footerBackground: 'white',
    footerText: 'black'
 }

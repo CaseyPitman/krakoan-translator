@@ -9,9 +9,9 @@ import "../css/navBar.css";
 const NavBar = props => {
   const location = useLocation();
 
-
   return (
     <div className='nav-bar'>
+
       <div className='nav-link-container'>
         <NavLink exact to='/' className='nav-link' activeClassName='active'>
           Home
