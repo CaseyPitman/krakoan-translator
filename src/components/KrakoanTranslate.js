@@ -7,20 +7,24 @@ import Keyboard from './Keyboard'
 
 //Styles
 
-import '../css/krakoan-translate.css'
+import '../css/translate.css'
 
 const KrakoanTranslate = () => {
   return (
     <div className='krakoan-translate'>
-      <div className = 'k-translate-container'>
+      <div className = 'input-output-wrapper'>
+        <div className = 'input-output-wrapper-top'></div>
         <div className='english-translation'>
-          tranlated text goes here.
+          translated text goes here.
         </div>
         translated infotag
         <Keyboard />
         keyboard infotag
       </div>
-    page-wide infotag
+   
+   <div className='translate-info-tag'>
+     info tag for page
+   </div>
     </div>
   );
 };

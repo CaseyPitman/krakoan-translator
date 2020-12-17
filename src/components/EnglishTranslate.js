@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 
 //Styles
-import "../css/english-translate.css";
+import "../css/translate.css";
 
 
 const EnglishTranslate = () => {
@@ -57,7 +57,7 @@ const EnglishTranslate = () => {
         </div>
       </div>
 
-      <div className='english-translate-info-tag'>
+      <div className='translate-info-tag'>
         <p className='info-tag'>[e_k_trans_init]..[exe]</p>
       </div>
     </div>
