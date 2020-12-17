@@ -2,10 +2,22 @@
 
 import React from "react";
 
+import '../css/krakoan-translate.css'
+
 const KrakoanTranslate = () => {
   return (
-    <div>
-      <h1>Translate krakoan to english</h1>
+    <div className='krakoan-translate'>
+      <div className = 'k-translate-container'>
+        <div className='english-translation'>
+          tranlated text goes here.
+        </div>
+        translated infotag
+        <div className = 'keyboard'>
+          keyboard goes here
+        </div>
+        keyboard infotag
+      </div>
+    page-wide infotag
     </div>
   );
 };
