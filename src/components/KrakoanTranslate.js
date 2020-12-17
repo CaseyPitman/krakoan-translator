@@ -2,6 +2,11 @@
 
 import React from "react";
 
+//Components
+import Keyboard from './Keyboard'
+
+//Styles
+
 import '../css/krakoan-translate.css'
 
 const KrakoanTranslate = () => {
@@ -12,9 +17,7 @@ const KrakoanTranslate = () => {
           tranlated text goes here.
         </div>
         translated infotag
-        <div className = 'keyboard'>
-          keyboard goes here
-        </div>
+        <Keyboard />
         keyboard infotag
       </div>
     page-wide infotag
